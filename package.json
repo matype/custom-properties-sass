@@ -1,0 +1,29 @@
+{
+  "name": "custom-properties-sass",
+  "version": "0.0.0",
+  "description": "Transpile Custom Properties to Sass variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morishitter/custom-properties-sass/git"
+  },
+  "keywords": [
+    "css",
+    "transform",
+    "sass",
+    "scss"
+  ],
+  "author": "Masaaki Morishita",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^5.1.2",
+    "postcss-scss": "^0.2.1"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.6.0"
+  }
+}
